@@ -3,6 +3,7 @@
 ## 公式推导
 
 莫比乌斯环公式
+
 $$
 \begin{cases}
 x(\theta,w)=(R+r\cos (\frac{\theta}{2}+w))\cos \theta\\
@@ -10,7 +11,9 @@ y(\theta,w)=(R+r\cos (\frac{\theta}{2}+w))\sin \theta\\
 z(\theta,w)=r\sin (\frac{\theta}{2}+w)\\
 \end{cases}
 $$
+
 定义三元组运算
+
 $$
 d(h,r,t)=||f(\theta_h,w_h)\oplus f(\theta_r,w_r)-f(\theta_t,w_t)||\\
 f(\theta_h,w_h)\oplus f(\theta_r,w_r):\\
