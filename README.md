@@ -25,6 +25,7 @@ x(\theta_h+\theta_r,w_h+w_r)=(R+r\cos (\frac{\theta_h+\theta_r}{2}+w_h+w_r))\cos
 y(\theta_h+\theta_r,w_h+w_r)=(R+r\cos (\frac{\theta_h+\theta_r}{2}+w_h+w_r))\sin (\theta_h+\theta_r)\\
 z(\theta_h+\theta_r,w_h+w_r)=r\sin(\frac{\theta_h+\theta_r}{2}+w_h+w_r)\\
 \end{cases}\\
+$$
 
 $$
 d(h,r,t)=\sqrt{||x_{h+r}-x_t||^2+||y_{h+r}-y_t||^2+||y_{h+r}-y_t||^2}
