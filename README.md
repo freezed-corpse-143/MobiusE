@@ -16,12 +16,17 @@ $$
 
 $$
 d(h,r,t)=||f(\theta_h,w_h)\oplus f(\theta_r,w_r)-f(\theta_t,w_t)||\\
+$$
+
+$$
 f(\theta_h,w_h)\oplus f(\theta_r,w_r):\\
 \begin{cases}
 x(\theta_h+\theta_r,w_h+w_r)=(R+r\cos (\frac{\theta_h+\theta_r}{2}+w_h+w_r))\cos (\theta_h+\theta_r)\\
 y(\theta_h+\theta_r,w_h+w_r)=(R+r\cos (\frac{\theta_h+\theta_r}{2}+w_h+w_r))\sin (\theta_h+\theta_r)\\
 z(\theta_h+\theta_r,w_h+w_r)=r\sin(\frac{\theta_h+\theta_r}{2}+w_h+w_r)\\
 \end{cases}\\
+
+$$
 d(h,r,t)=\sqrt{||x_{h+r}-x_t||^2+||y_{h+r}-y_t||^2+||y_{h+r}-y_t||^2}
 $$
 
