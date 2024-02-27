@@ -26,3 +26,9 @@ $$
 
 - TorusE直接以x, y, z为参数
 - Mobius以$\theta,w$为参数
+
+## 论文地址
+
+[TorusE](https://arxiv.org/pdf/1711.05435.pdf)
+
+[MobiusE](https://arxiv.org/pdf/2101.02352.pdf)
